@@ -10,7 +10,7 @@ public class SimpSieve {
         int n = 10 ; //find primes upto 10
         boolean[] isPrime = new boolean[n+1];
         Arrays.fill(isPrime, true); //make all the numbers inside the array as true  for prime
-        //make 0 and 1 as non prime numbers
+        //make 0 and 1 as non prime numbers .
         isPrime[0] = false;
         isPrime[1] = false;
 
