@@ -14,7 +14,7 @@ public class SimpSieve {
         isPrime[0] = false;
         isPrime[1] = false;
 
-        for(int i = 2 ; i*i <= n ; i++) {
+        for(int i = 2 ; i*i <= n ; i++) { //this is how we iterate inside an array to find the multiples of an element inside the array by iterating through each element 
             if(isPrime[i]) {
                 for(int j = i*i ; j <=n ; j+=i) { //selecting the multiples of the selected array of each index iterating over
                     isPrime[j] = false; // mark multiples of i as non prime.
