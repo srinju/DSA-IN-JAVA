@@ -20,6 +20,6 @@ public class Eulersphi {
     public static void main(String[] args) {
         int n = 36;
         int eulerstotient = phi(n);
-        System.out.println("eulers totient function is : " + eulerstotient);
+        System.out.println("euler's totient function is : " + eulerstotient);
     }
 }
