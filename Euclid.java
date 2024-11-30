@@ -5,7 +5,7 @@ public class Euclid {
         if(a == 0) {
             return b;
         }
-        return gcd(b%1, a);
+        return gcd(b%a, a);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
