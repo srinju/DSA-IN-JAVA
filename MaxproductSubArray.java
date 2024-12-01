@@ -11,7 +11,7 @@ public class MaxproductSubArray{
         int result = nums[0];
         for(int i = 1 ; i < length ; i++) { //we start from 1st index coz we setting the variable max min and result as the first element of the array so the rest calculation should be done from the 1st index of the array
             int temp_max = Math.max(nums[i]*max, Math.max(nums[i] * min , nums[i]));
-            min = Math.max(nums[i]*max, Math.max(nums[i] * min , nums[i]));
+            min = Math.min(nums[i]*max, Math.max(nums[i] * min , nums[i]));
             max = temp_max;
             result = Math.max(result, max);
         }
