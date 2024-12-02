@@ -33,5 +33,6 @@ public class ChineseRemainder {
             p = p*m[i]; //calculation of the M
         }
         System.out.println("the solution is " + CRT(a, m, size, p));
+        sc.close();
     }
 }

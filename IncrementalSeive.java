@@ -32,6 +32,7 @@ public class IncrementalSeive {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the limit  : ");
         int n = sc.nextInt();
+        sc.close();
         List<Integer> primes = incrementalSeive(n);
         System.out.println("primes upto the limit " + n + "is : "  + primes);
     }

@@ -20,6 +20,7 @@ public class BinaryPalindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the binary number : ");
         int num = sc.nextInt();
+        sc.close();
         if(isbinarypalindrome(num)){
             System.out.println(num + "is a binary palindrome!!");
         } else {

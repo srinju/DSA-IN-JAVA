@@ -37,5 +37,6 @@ public class StrobogrammaticNumber {
         System.out.println("Enter a number : ");
         String num = sc.nextLine();
         System.out.println(isStrobogrammatic(num));
+        sc.close();
     }
 }
